@@ -65,8 +65,8 @@ public class FistFragment extends Fragment {
                 );
             } else if(count >= 50) {
                 conteiner.setBackground(ContextCompat.getDrawable(getContext(), R.drawable.ic_background_home));
-
-
+            }else{
+                conteiner.setBackground(ContextCompat.getDrawable(getContext(), R.color.black_orange));
             }
         }
         if (count <= 0) {
